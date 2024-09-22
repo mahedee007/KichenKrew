@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{@apply font-body max-w-7xl mx-auto}
+li{
+  @apply text-black/70
+}
+h1{
+  @apply text-white font-bold text-[52px] w-4/5 text-center
+}
