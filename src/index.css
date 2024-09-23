@@ -5,8 +5,20 @@
 
 body{@apply font-body max-w-7xl mx-auto}
 li{
-  @apply text-black/70
+  @apply text-black/70 
+}
+li a{
+  @apply px-5 py-8 
 }
 h1{
-  @apply text-white font-bold text-[52px] w-4/5 text-center
+  @apply text-white font-bold text-[30px] md:text-[52px] w-4/5 text-center 
+}
+h6{
+  @apply text-white font-medium w-2/3 text-center mb-4 text-[14px]
+}
+.btn-fill{
+  @apply text-white text-[14px] py-3 px-4 md:py-5 md:px-8 bg-[#640D5F] rounded-[50px] border-0
+}
+.btn-otline{
+  @apply text-white text-[14px] py-3 px-4  md:py-5 md:px-8 bg-transparent border-2 border-white rounded-[50px] hover:bg-[#640D5F] hover:border-0
 }
